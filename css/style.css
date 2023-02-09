@@ -18,13 +18,13 @@ main {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    display: none;
+    /* display: none; */
     margin: 0 auto;
 }
 
-.grid-show {
+/* .grid-show {
     display: flex;
-}
+} */
 
 .play {
     border-radius: 10px;
@@ -38,11 +38,12 @@ main {
     text-transform: uppercase;
     border: none;
     display: block;
+    margin-top: 50px;
 }
 
-.display-none {
+/* .display-none {
     display: none;
-}
+} */
 
 .cell {
     background-color: white;
