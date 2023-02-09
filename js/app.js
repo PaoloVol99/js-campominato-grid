@@ -1,11 +1,11 @@
 
 const gridElement = document.querySelector('.grid')
-let sidelenght = 8
-let cellNumber = sidelenght ** 2
+let sidelength = 10
+let cellNumber = sidelength ** 2
 
 for (let i = 0; i < cellNumber; i++) {
     let num = i + 1
-    const cell = `<div class="cell" style="width: calc(100% / ${sidelenght});">${num}</div>`
+    const cell = `<div class="cell" style="width: calc(100% / ${sidelength});">${num}</div>`
     gridElement.innerHTML += cell
 }
 
