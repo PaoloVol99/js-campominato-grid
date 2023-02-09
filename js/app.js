@@ -26,9 +26,10 @@ playElement.addEventListener('click', function() {
     for (let i = 0; i < cellElement.length; i++) {
         cellElement[i].addEventListener('click', function() {
             console.log(i + 1)
-            cellElement[i].classList.toggle('clicked')
+            cellElement[i].classList.add('clicked')
         })
     }
+    playElement.innerHTML = 'RESTART'
     clicked = true
 })
     
